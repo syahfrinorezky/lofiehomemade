@@ -36,7 +36,7 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-white text-primary shadow-lg">
+    <div className="fixed top-0 w-full z-10 bg-white text-primary shadow-lg">
       <div className="flex items-center justify-between py-3 px-5 md:max-w-[1200px] md:mx-auto">
         <div className="logo">
           <Image
